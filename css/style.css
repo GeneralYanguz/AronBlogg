@@ -47,12 +47,23 @@ a:hover, a:active, a:focus {
 	opacity: 0.7;
 }
 
-#canvas-container {
-   text-align:center;
-   border-style:groove;
-   border-width:thick;
-   margin: 0 auto;
-   width: 600px;
+#pong-container {
+
+    text-align:center;
+    border-style:groove;
+    border-width:thick;
+    margin: auto;
+    width: 600px;
+}
+
+#snake-container {
+    display: block;
+    position: absolute;
+    border-style:groove;
+    border-width:thick;
+    margin: auto;
+    width: 520px;
+    height: 520px;
 }
 
 .content {
